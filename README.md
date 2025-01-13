@@ -77,6 +77,8 @@ python cli_script.py
 
 
 Explanation
-Using -m Option: This treats src.cli.cli_script as a module and runs it within the package context, allowing Python to resolve the relative imports correctly.
+Using -m Option: This treats src.cli.cli_script as a module and runs it within the **package** context, allowing Python to resolve the relative imports correctly.
+
 Direct Script Execution: By setting PYTHONPATH to include the parent directory of src, Python can resolve the package structure and relative imports when running cli_script.py directly.
+
 Choose the option that best fits your workflow. Using the -m option is generally recommended for running scripts within a package.
