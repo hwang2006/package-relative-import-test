@@ -3,7 +3,6 @@
 ```bash
 package-relative-import-test
 └── src
-    ├── README.md
     ├── __init__.py
     ├── cli
     │   ├── __init__.py
