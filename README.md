@@ -1,5 +1,6 @@
 ## Here is the directory structure for a testing package:
 
+```bash
 package-relative-import-test
 └── src
     ├── README.md
@@ -11,6 +12,7 @@ package-relative-import-test
         ├── __init__.py
         ├── summarizer.py
         └── utils.py
+```
 
 To run the script using its relative module path correctly, you need to adjust your command.
 
